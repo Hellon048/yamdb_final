@@ -1,8 +1,8 @@
 # API YaMDb
-***
-Проект доступен по адресу: 178.154.226.84/admin
 ![CI](https://github.com/Hellon048/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-***
+
+Проект доступен по адресу: https://178.154.226.84/admin
+
 <details>
     <summary style="font-size: 16pt; font-weight: bold">Описание</summary>
 
@@ -40,6 +40,9 @@ docker-compose up -d --build
 ```
 
 Сделать миграции внутри web контейнера:
+```
+cd infra
+```
 ```
 docker-compose exec web python manage.py migrate
 ```
