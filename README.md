@@ -1,5 +1,6 @@
 # API YaMDb
 ***
+Проект доступен по адресу: 178.154.226.84/admin
 ![CI](https://github.com/Hellon048/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 ***
 <details>
@@ -58,7 +59,7 @@ docker-compose exec web python manage.py collectstatic --no-input
 <details>
      <summary style="font-size: 16pt; font-weight: bold">Документация</summary>
 
-С документацией проекта можно ознакомиться по [ссылке](http://127.0.0.1:8000/redoc/) после запуска проекта.
+С документацией проекта можно ознакомиться по [ссылке](http://178.154.226.84/redoc/) после запуска проекта.
 </details>
 
 
