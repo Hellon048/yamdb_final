@@ -45,7 +45,7 @@ jobs:
           no-cache: true
           push: true
           context: ./api_yamdb/
-          tags: ${{ secrets.DOCKER_USERNAME }}/infra:v2.10.2022
+          tags: hellon048/infra
 
   deploy:
       runs-on: ubuntu-latest
