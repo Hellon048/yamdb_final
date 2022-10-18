@@ -61,7 +61,7 @@ jobs:
             passphrase: ${{ secrets.PASSPHRASE }}
             script: |
               cd infra/
-              sudo docker pull hellon048/infra:v2.10.2022
+              sudo docker pull hellon048/infra
               sudo docker-compose stop
               sudo docker-compose rm web
               rm .env
